@@ -41,6 +41,6 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:https://github.com/SKZhao97/Spring_petclinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:SKZhao97/Spring_petclinic.git</developerConnection>
   </scm>
 </project>
