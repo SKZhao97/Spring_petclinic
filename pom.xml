@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.petclinic</groupId>
     <artifactId>spring-petclinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>spring-petclinic</name>
     <description>Spring pet clinic</description>
 
@@ -35,6 +35,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -45,5 +46,5 @@
 
 <!--        <url>https://github.com/SKZhao97/Spring_petclinic.git</url>-->
 <!--        <connection>scm:git:https://github.com/SKZhao97/Spring_petclinic.git</connection>-->
-  </scm>
+    </scm>
 </project>
